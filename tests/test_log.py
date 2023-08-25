@@ -1,6 +1,6 @@
 from src.log import Log
 from src.manipulador_de_log import ManipuladorDeLog
-from src.log_em_tela import LogEmTela
+# from src.log_em_tela import LogEmTela
 from src.log_em_arquivo import LogEmArquivo
 import inspect
 import os
