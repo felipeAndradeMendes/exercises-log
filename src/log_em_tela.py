@@ -1,4 +1,4 @@
-from manipulador_de_log import ManipuladorDeLog
+from .manipulador_de_log import ManipuladorDeLog
 
 
 class LogEmTela(ManipuladorDeLog):

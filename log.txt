@@ -1,1 +1,3 @@
 [ALERTA - 25/08/2023 14:48:38: testando sinegócio]
+[ERRO - 25/08/2023 17:53:07: ZeroDivisionError: division by zero]
+[ERRO - 25/08/2023 17:54:19: ZeroDivisionError: division by zero]

@@ -5,10 +5,10 @@ from datetime import datetime
 
 class Log:
     def __init__(self, manipuladores):
-        self.manipuladores = set(manipuladores)
+        self.__manipuladores = set(manipuladores)
 
     def adicionar_manipulador(self, manipulador):
-        self.manipuladores.add(manipulador)
+        self.__manipuladores.add(manipulador)
 
     def info(self, msg):
         self.__log("INFO", msg)
@@ -23,7 +23,7 @@ class Log:
         self.__log("DEBUG", msg)
 
     def __log(self, nivel, msg):
-        for manipulador in self.manipuladores:
+        for manipulador in self.__manipuladores:
             manipulador.log(self.__formatar(nivel, msg))
 
     def __formatar(self, nivel, msg):
